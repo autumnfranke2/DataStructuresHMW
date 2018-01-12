@@ -11,3 +11,4 @@ for i in range(2,50):
 
     if  isPrime:
         print(i)
+ 
