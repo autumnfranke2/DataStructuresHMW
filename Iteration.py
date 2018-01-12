@@ -4,7 +4,7 @@
 
 for i in range(2,50):
     isPrime = True
-    for j in range(2,i):
+    for j in range(2,int(i+1/2)):
         if i % j == 0:
             isPrime = False
             break
